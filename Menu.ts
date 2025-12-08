@@ -44,7 +44,6 @@ export function main() {
             case 1:
                 console.log(colors.fg.whitestrong,
                     "\n\nCriar Conta\n\n", colors.reset);
-
                 keyPress();
                 break;
             case 2:
@@ -102,12 +101,26 @@ export function sobre(): void {
     console.log("*****************************************************");
 }
 
-main();
-
-
 
 function keyPress(): void {
     console.log(colors.reset, "");
     console.log("\nPressione enter para continuar...");
     readlinesync.prompt();
 }
+
+
+main();
+
+
+
+
+
+
+  
+
+
+ 
+
+
+
+
