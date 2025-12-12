@@ -1,11 +1,11 @@
-import {Conta} from './model/Conta';
+import {Conta} from '../model/Conta';
 
 export interface ContaRepository {
 
-    procurarPorNumero7(numero: number): void;
+    procurarPorNumero(numero: number): void;
     listarTodas():void;
-    cadastrar(conta:conta): void;
-    atualizar(conta:conta): void;
+    cadastrar(conta:Conta): void;
+    atualizar(conta:Conta): void;
     deletar(numero: number):void;
 
     sacar(numero: number, valor: number):void;
