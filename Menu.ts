@@ -212,9 +212,9 @@ contas.listarTodas();
 /* Função com os dados da pessoa desenvolvedora */
 function sobre(): void {
     console.log("\n*****************************************************");
-    console.log("Projeto Desenvolvido por: ");
-    console.log("Generation Brasil - generation@generation.org");
-    console.log("github.com/conteudoGeneration");
+    console.log("Projeto Desenvolvido por: Thays Peixoto da Silva");
+    console.log("Generation Brasil - thabysilva12@gmail.com");
+    console.log("https://github.com/ThaysPei");
     console.log("*****************************************************");
 }
 
